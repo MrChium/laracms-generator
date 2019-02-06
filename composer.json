@@ -1,0 +1,35 @@
+{
+  "name": "myqqiu\/laracms-generator",
+  "description": "Extend LaraCMS generators scaffold.",
+  "keywords": [
+    "laravel",
+    "generators",
+    "scaffold",
+    "laracms"
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "qqiu",
+      "email": "qqiu@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Cmspackage\\Laracms\\Generator\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cmspackage\\Laracms\\Generator\\GeneratorsServiceProvider"
+      ]
+    }
+  }
+}
